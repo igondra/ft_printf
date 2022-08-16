@@ -6,7 +6,7 @@
 /*   By: igondra- <igondra-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 09:47:26 by igondra-          #+#    #+#             */
-/*   Updated: 2022/07/14 11:55:01 by igondra-         ###   ########.fr       */
+/*   Updated: 2022/07/19 18:54:41 by igondra-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	ft_printf(char const *str, ...)
 		}
 		else
 		{ // Si no sale porcentaje, simplemente imprimimos el carácter de la cadena const_str
-			ft_putchar_fd(str[cnt], 1);
+			ft_putchar_fd(str[cnt], fd);
 			str_len++;
 		}
 		cnt++;

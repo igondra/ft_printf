@@ -6,7 +6,7 @@
 /*   By: igondra- <igondra-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 10:14:21 by igondra-          #+#    #+#             */
-/*   Updated: 2022/07/14 11:54:37 by igondra-         ###   ########.fr       */
+/*   Updated: 2022/07/19 18:50:36 by igondra-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_putstr_fd(char *s, int fd)
 
 	i = 0;
 	if (!s)
-		return (write(1, "(null)", 6));
+		return (write(fd, "(null)", 6));
 	while (s[i])
 		ft_putchar_fd(s[i++], fd);
 	return (i);
