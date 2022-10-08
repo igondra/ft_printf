@@ -6,14 +6,13 @@
 /*   By: igondra- <igondra-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 10:16:15 by igondra-          #+#    #+#             */
-/*   Updated: 2022/07/14 11:54:52 by igondra-         ###   ########.fr       */
+/*   Updated: 2022/10/06 18:22:35 by igondra-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include <stdio.h>
 # include <unistd.h>
 # include <stdarg.h>
 # include <limits.h>

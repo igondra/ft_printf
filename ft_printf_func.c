@@ -6,7 +6,7 @@
 /*   By: igondra- <igondra-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 10:14:21 by igondra-          #+#    #+#             */
-/*   Updated: 2022/07/19 18:50:36 by igondra-         ###   ########.fr       */
+/*   Updated: 2022/10/06 18:04:28 by igondra-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	ft_putnbr_fd(int n, int fd)
 	long_n = 1;
 	if (n == INT_MIN)
 	{
-		write(fd, "-2147483648", 11);   // ft_itoa(INT_MIN)
+		write(fd, "-2147483648", 11);
 		return (11);
 	}
 	if (n < 0)
